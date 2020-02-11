@@ -32,9 +32,6 @@ export default function Book({ navigation }) {
                     style={styles.input}
                     placeholder='Data para reserva'
                     placeholderTextColor="#999"
-                    autoCapitalize='words'
-                    keyboardType="email-address"
-                    autoCorrect={false}
                     value = {date}
                     onChangeText= {setDate}
                 />
