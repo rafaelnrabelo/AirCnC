@@ -7,12 +7,13 @@ const socketio = require('socket.io');
 const http = require('http');
 
 const routes = require('./routes');
+const { MONGO_URL } = require('./.env.json');
 
 const app = express();
 const server = http.Server(app);
 const io = socketio(server);
 
-mongoose.connect('mongodb+srv://rafael:rafael2001@cluster0-dv8ty.mongodb.net/week9?retryWrites=true&w=majority', {
+mongoose.connect(MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });

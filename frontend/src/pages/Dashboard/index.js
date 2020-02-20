@@ -2,6 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import socketio from 'socket.io-client';
 import api from '../../services/api';
+import { API_URL } from '../../.env.json';
 
 import './styles.css'
 
@@ -10,7 +11,7 @@ export default function Dashboard() {
     const [requests, setRequests] = useState([]);
 
     const user_id = localStorage.getItem('user');
-    const socket = useMemo(() => socketio('http://192.168.0.187:3333', {
+    const socket = useMemo(() => socketio(API_URL, {
         query: { user_id }
     }), [user_id]);
 
