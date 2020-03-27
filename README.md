@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  AirCnC <br/>
+  <img src="https://user-images.githubusercontent.com/55251721/77790551-ce086d80-7043-11ea-8ee9-258e081daf49.png" width=250 /> <br/>
 </h1>
 
 <h2 align="center">
