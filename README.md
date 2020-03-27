@@ -1,5 +1,14 @@
 
-<h1 align="center">Projeto AirCnC da Semana Omnistack 9</h1>
+<h1 align="center">
+  AirCnC <br/>
+</h1>
+
+<h2 align="center">
+  Projeto da Semana Omnistack 9 <br/> <br/>
+  <a href="https://github.com/rafaelnrabelo/AirCnC#testando">
+    <img src="https://img.shields.io/badge/Testing-Install-%23f05a5b" alt="testing"/>
+  </a>
+</h2>
 
 ## Testando:
    1. Clone o repositorio usando git clone `https://github.com/rafaelnrabelo/AirCnC.git`
